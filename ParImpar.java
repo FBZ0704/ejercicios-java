@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Escribir un programa que solicite un valor entero al usuario y determine si es par o impar.
+
 public class ParImpar {
     public static void main(String[] arg){
         Scanner Scanner = new Scanner(System.in);
