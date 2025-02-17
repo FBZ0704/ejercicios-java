@@ -23,6 +23,10 @@ public class Elmayorde3 {
             System.out.println(" El Numero " + numero2 + " Es Mayor Que Los Otros: " + numero1 + " Y " + numero3);
         }else if (numero3 > numero1 && numero3 > numero2) {
             System.out.println( "El Numero " + numero3 + " Es Mayor Que Los Otros: " + numero1 + " Y " + numero2);
-        }       
+        }
+        Scanner.nextLine();
+        Scanner.close();
+        Scanner2.close();
+        Scanner3.close();
     }
 }
