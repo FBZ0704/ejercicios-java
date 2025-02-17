@@ -17,9 +17,9 @@ public class Elmayor {
         }else if (numero1 < numero2) {
             System.out.println(" El Numero " + numero1 + " Es menor Que El Numero " + numero2);
         }
-
-        
+        Scanner.nextLine();
+        Scanner.close();
+        Scanner2.close()       
         }
-
     }
 
