@@ -23,10 +23,14 @@ public class Opemaspor {
         System.out.println("La Suma De: " + numero1 + " + " + numero2 + " es:" + resulsuma);
         System.out.println("La Resta De: " + numero1 + " - " + numero2 + " es :" + resulresta);
         System.out.println("La Multiplicacion De: " + numero1 + " * "  + numero2 + " es: " + resultpor);
-       
+
+        Scanner2.close();
         }
         else{
             System.out.println("El Numero Es menor De Cero. Numero Invalido");
         }
+
+        Scanner.nextLine();
+        Scanner.close();
     }
 }
