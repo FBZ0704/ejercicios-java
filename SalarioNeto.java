@@ -94,11 +94,11 @@ public class SalarioNeto {
     // Salario Neto A Pagar
     salarioBruto = (horasNormales * valorHora) + (horasExtras * valorHoraExtra);
 
-    System.out.println("Digita El Valor De La Hora: $" + valorHora);
-    System.out.println("Digita El Numero De Horas trabajadas En La Semana 1: " + semana1 + " Horas");
-    System.out.println("Digita El Numero De Horas trabajadas En La Semana 2: " + semana2 + " Horas");
-    System.out.println("Digita El Numero De Horas trabajadas En La Semana 3: " + semana3 + " Horas");
-    System.out.println("Digita El Numero De Horas trabajadas En La Semana 4: " + semana4 + " Horas");
+    System.out.println("Valor De La Hora: $" + valorHora);
+    System.out.println("Numero De Horas trabajadas En La Semana 1: " + semana1 + " Horas");
+    System.out.println("Numero De Horas trabajadas En La Semana 2: " + semana2 + " Horas");
+    System.out.println("Numero De Horas trabajadas En La Semana 3: " + semana3 + " Horas");
+    System.out.println("Numero De Horas trabajadas En La Semana 4: " + semana4 + " Horas");
     System.out.println("Horas Normales Trabajadas: " + horasNormales);
     System.out.println("Horas Extras Trabajadas: " + horasExtras);
     System.out.println("Valor Horas Normales Trabajadas: " + (horasNormales * valorHora));
